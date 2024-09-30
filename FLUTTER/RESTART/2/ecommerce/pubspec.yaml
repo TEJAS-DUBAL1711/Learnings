@@ -1,0 +1,28 @@
+name: ecommerce
+description: "A new Flutter project for building an e-commerce application."
+publish_to: "none" # This prevents the project from being published to pub.dev
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Add the carousel_slider package for the banner carousel
+  carousel_slider: ^4.0.0
+  # You can add other essential packages here as needed:
+  # Example:
+  # provider: ^6.0.0 for state management
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/ # Add this if you're using local assets such as product images
+
